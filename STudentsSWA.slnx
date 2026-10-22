@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AzFunc/AzFunc.csproj" />
+  <Project Path="StudentsBlazor/StudentsBlazor.csproj" />
+</Solution>
