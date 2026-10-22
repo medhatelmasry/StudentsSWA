@@ -47,6 +47,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        students = await Http.GetFromJsonAsync<Student[]>($"{Constants.BASE_URL}/api/students");
+        students = await Http.GetFromJsonAsync<Student[]>($"{Constants.BASE_URL}api/students");
     }
 }
